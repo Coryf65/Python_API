@@ -1,9 +1,9 @@
-# Python_API
-Using API's in Python
+# Using Python to call an API
 
-## Packages
+[UPC lookup API](https://devs.upcitemdb.com/)
+
+## Packages (Setup)
 
 Using requests module
 
-'pip install requests'
-
+`pip install requests`
