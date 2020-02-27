@@ -5,7 +5,7 @@ import json
 
 base_url = 'https://api.upcitemdb.com/prod/trial/lookup'
 
-parameters = {'upc' : '012993441012'}
+parameters = {'upc' : '073366118238'}
 
 response = requests.get(base_url, params=parameters)
 
@@ -19,8 +19,8 @@ content = response.content
 info = json.loads(content)
 
 # see what type of reponse
-print(type(info))
-print(info)
+#print(type(info))
+#print(info)
 
 # getting the data we want
 item = info['items']
